@@ -26,11 +26,11 @@ Watch the pattern, repeat it correctly, and test how far your memory can go!
 ---
 
 ## 🖼️ Screenshot
+### 💻 Desktop View
+![Simon Game Screenshot](https://github.com/user-attachments/assets/2eadf749-6823-4d3e-a2e1-361f306bf6fa)
 
-![Simon Game Screenshot](![image](https://github.com/user-attachments/assets/2eadf749-6823-4d3e-a2e1-361f306bf6fa)
-)
-![Simon Game Screenshot Mobile](![image](https://github.com/user-attachments/assets/84ef536d-328b-435b-851b-6fae62778136)
-)
+### 📱 Mobile View
+![Simon Game Screenshot Mobile](https://github.com/user-attachments/assets/84ef536d-328b-435b-851b-6fae62778136)
 
 ---
 
