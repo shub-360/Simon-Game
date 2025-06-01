@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content=" #ef476f" id="theme-color">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Press+Start+2P&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Simon Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Simon Game</h1>
+            <p>Lights. Sounds. Glory.</p>
+
+        </header>
+        <div class="game-container">
+
+            <div class="game-board">
+                <div class="game-board-square " id="top-left-red"></div>
+                <div class="game-board-square " id="top-right-green"></div>
+                <div class="game-board-square " id="bottom-left-yellow"></div>
+                <div class="game-board-square " id="bottom-right-blue"></div>
+            </div>
+            <div class="game-controls">
+
+                <button class="start-button" id="start-button">Start</button>
+                <div class="game-counter">
+                    <!-- on this counter label the value will inject by Js -->
+                    <div class="display-count">
+                        <span class="counter-label">0</span>
+                    </div>
+                    <span id="count-text">Count</span>
+                </div>
+
+            </div>
+
+
+        </div>
+        <div class="game-instructions">
+            <h2>How to Play:</h2>
+            <ul>
+                <li>Click the <span id="start">"Start"</span> button to begin the game.</li>
+                <li>Follow the sequence of <span class="rainbow red">c</span> <span class="rainbow orange">o</span><span
+                        class="rainbow yellow">l</span> <span class="rainbow green">o</span> <span
+                        class="rainbow blue">r</span> <span class="rainbow indigo">s</span> and sounds.
+                </li>
+                <li>Click the squares in the same order to win!</li>
+                <li>Use the "Strict" mode for a more challenging experience.</li>
+            </ul>
+
+
+        </div>
+        <footer>
+            <p>Made with ❤️ by shub(⁠◕⁠ᴗ⁠◕⁠✿⁠).</p>
+        </footer>
+
+    </div>
+    <!-- JQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>

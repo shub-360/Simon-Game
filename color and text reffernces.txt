@@ -1,0 +1,15 @@
+background color : #FFE1E0;
+font-family : Roboto Condensed  , Luckiest Guy
+
+
+
+heading : #8ac926; #FFAB5B; ; #7F55B1;
+
+
+
+
+red-dimmed : #ef476f ; yellow-dimmed: #ffd166 ; green- dimmed : #06d6a0; blue-dimmed : #4CC9FE;
+
+
+
+footer : #F49BAB;

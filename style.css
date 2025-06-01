@@ -1,0 +1,208 @@
+/* Global Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+    background-color: #FFE1E0;
+}
+
+/* Container styling  */
+.container {
+
+    max-width: 80%;
+    margin: auto;
+}
+
+
+/*  Heading Styling*/
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Luckiest Guy';
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: #734da1;
+    text-shadow: 2px 0  #ef476f;
+    border-bottom: 1.2px solid black;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 300;
+
+}
+
+@media (max-width: 700px) {
+    header h1 {
+        font-size: 2rem;
+        font-weight: 400;
+
+    }
+}
+
+header p {
+    font-size: 1.3rem;
+    color: #ef476f;
+    font-weight: 450;
+}
+
+/* Main Game styling  */
+
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(2, 250px);
+    gap: 0.5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    
+}
+@media (max-width: 700px) {
+    .game-board {
+        grid-template-columns: repeat(2, 150px);
+        grid-template-rows: repeat(2, 150px);
+    }
+}
+
+.game-container{
+    position: relative;
+}
+
+/* board square styling */
+
+.game-board-square{
+    border: 2px solid #7F55B1;
+}
+
+/* board square colors */
+
+#top-left-red {
+    background-color: #ef476f;
+}
+
+
+#top-right-green {
+    background-color: #06d6a0;
+}
+
+#bottom-left-yellow {
+    background-color: #ffd166;
+}
+
+#bottom-right-blue {
+    background-color: #4CC9FE;
+}
+/* Flash Animation */
+.active {
+  opacity: 1;
+  filter: brightness(2);
+  transform: scale(1.05);
+  box-shadow: inset 0 0 20px #ffffff;
+  transition: all 0.3s ease-in-out;
+}
+/* game controls Inner circle */
+.game-controls{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #FFAB5B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    border: 3px solid #FFE1E0;
+    padding: 0.5rem;
+}
+
+.game-controls button{
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    border: 2px solid  #7F55B1;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #7F55B1;
+    padding: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.game-controls button:active {
+    background-color: #ffffff;
+    color: #7F55B1;
+    cursor: pointer;
+}
+.game-counter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+.display-count{
+    font-size: 1.2rem;
+    background-color: #e43a3a;
+    font-weight: 600;
+    width: 2rem;
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    width: 2.5rem;
+    padding: 0 0.2rem;
+   
+}
+@media (max-width: 700px) {
+    .game-controls {
+        width: 150px;
+        height: 150px;
+    }
+}
+.game-instructions{
+    height: auto;
+    width: 100%;
+    background-color:  #FFAB5B;
+    color: #FFE1E0;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.game-instructions h2{
+    text-decoration: underline;
+}
+.game-instructions ul{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5rem;
+}
+/* The Color word styling  */
+#start{
+     color: #ef476f;
+}
+.rainbow.red { color: red; }
+.rainbow.orange { color: rgb(225, 255, 0); }
+.rainbow.yellow { color: rgb(51, 255, 0); }
+.rainbow.green { color: rgb(0, 218, 174); }
+.rainbow.blue { color: blue; }
+.rainbow.indigo { color: rgb(112, 0, 168); }
+
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #734da1;
+    padding: 1rem;
+   
+}
