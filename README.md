@@ -27,10 +27,13 @@ Watch the pattern, repeat it correctly, and test how far your memory can go!
 
 ## 🖼️ Screenshot
 ### 💻 Desktop View
-![Simon Game Screenshot](https://github.com/user-attachments/assets/2eadf749-6823-4d3e-a2e1-361f306bf6fa)
+![image](https://github.com/user-attachments/assets/3ccb600d-b8d1-432d-b01e-20863128b047)
+
 
 ### 📱 Mobile View
-![Simon Game Screenshot Mobile](https://github.com/user-attachments/assets/84ef536d-328b-435b-851b-6fae62778136)
+![image](https://github.com/user-attachments/assets/709aa771-6da0-4c48-9d09-2d9af7c55e77)
+
+
 
 ---
 
